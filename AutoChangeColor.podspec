@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.0"
 
   spec.source       = { :git => "https://github.com/DarshitEL/AutoChangeColor.git", :tag => "#{spec.version}" }
-  spec.source_files = "RandomBGClr","RandomBGClr/**/*.{h,m,swift}","RandomBGClr/Source/**/*.{h,m,swift}"
+  #spec.source_files = "AutoChangeColor","AutoChangeColor/**/*.{h,m,swift}","AutoChangeColor/Source/**/*.{h,m,swift}"
+    spec.source_files = "**/*"
 end
