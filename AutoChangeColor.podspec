@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AutoChangeColor"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This framwork allow to show randome background color for any view at every second."
   spec.description  = <<-DESC
                      This framwork allow to show randome background color for any view at every second.
@@ -17,5 +17,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/DarshitEL/AutoChangeColor.git", :tag => "#{spec.version}" }
   #spec.source_files = "AutoChangeColor","AutoChangeColor/**/*.{h,m,swift}","AutoChangeColor/Source/**/*.{h,m,swift}"
-    spec.source_files = "**/*"
+    spec.source_files = "AutoChangeColor","AutoChangeColor/*.{h,m,swift}","AutoChangeColor/**/*.{h,m,swift}"
 end
+
